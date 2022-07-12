@@ -1,0 +1,110 @@
+#studio-a-section{
+    width: calc(100vw - 64px);
+    height: max-content;
+    position: relative;
+    top: 96px;
+    margin: 0px 32px;
+}
+.studio-a-cont-a{
+    display: flex;
+}
+.studio-a-spec-sheet-right , .studio-a-img{
+    height: 480px;
+    width: 55vw;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#studio-a-img-1{
+    background-image: url('/assets/studiob.png');
+}
+#studio-a-img-2{
+    background-image: url('/assets/studioa.png');
+}
+.studio-a-header{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.studio-a-info{
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 12px;
+    opacity: 0.6;
+}
+.studio-a-desc{
+    font-weight: 200;
+    font-size: 16px;
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 12px;
+}
+.studio-a-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.studio-a-right{
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.studio-a-spec-sheet-header{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.studio-a-spec-sheet-desc{
+    font-size: 14px;
+    font-weight: 200;
+    opacity: 0.7;
+}
+.studio-a-spec-sheet{
+    display: flex;
+}
+.studio-a-spec-sheet-item{
+    margin-right: 48px;
+}
+
+.studio-a-cont-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+#studio-a-spec-sheet-header{
+    margin-bottom: 12px;
+    font-size: 42px;
+}
+
+@media only screen and (max-width:720px) {
+    .studio-a-cont-a{
+        flex-direction: column;
+    }
+    .studio-a-spec-sheet-right , .studio-a-img{
+        width: 100vw;
+    }
+    .studio-a-img img {
+        width: 100vw;
+    }
+    .studio-a-right{
+        margin-left: 0px;
+    }
+    .studio-a-cont-b{
+        flex-direction: column-reverse;
+    }
+    .studio-a-spec-sheet{
+        flex-direction: column;
+    }
+    .studio-a-spec-sheet-right{
+        height: 400px;
+    }
+    .studio-a-spec-sheet-right , .studio-a-img{
+        height: 40vw;
+    }
+}

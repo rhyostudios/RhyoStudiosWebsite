@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:"itc-avant-garde-gothic-pro";
+    text-decoration: none;
+    color: white;
+}
+
+body{ 
+    background-color: rgb(5, 5, 5);
+    overflow: hidden;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}

@@ -1,0 +1,45 @@
+.welcome-screen{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(15, 15, 15);
+    z-index: 1;
+    transition: 500ms ease-in-out;
+    transition-delay: 600ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.loading-message{
+    transition: 200ms ease-in-out;
+}
+
+#loading-r{
+    position: relative;
+    top: 0px;
+    transition: 500ms ease-in-out;
+    transition-delay: 200ms;
+}
+#loading-h{
+    position: relative;
+    top: 0px;
+    transition: 500ms ease-in-out;
+    transition-delay: 300ms;
+}
+#loading-y{
+    position: relative;
+    top: 0px;
+    transition: 500ms ease-in-out;
+    transition-delay: 400ms;
+}
+#loading-o{
+    position: relative;
+    top: 0px;
+    transition: 500ms ease-in-out;
+    transition-delay: 500ms;
+}

@@ -1,0 +1,127 @@
+.navbar-cont{
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    height: 96px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 300ms ease-in-out;
+}
+
+.navbar-cont-black{
+    background-color: rgb(5, 5, 5,1);
+    transition: 300ms ease-in-out;
+}
+.navbar-cont-transparent{
+    background-color: rgb(0, 0, 0, 0);
+    transition: 300ms ease-in-out;
+}
+
+.navbar-cont-left{
+    margin-left: 32px;
+}
+.navbar-cont-right{
+    margin-right: 32px;
+}
+
+.burger-menu-cont{
+    position: relative;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.burger-menu-line-1 , .burger-menu-line-2 , .burger-menu-line-3 {
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    transition: 200ms ease-in-out;
+}
+
+.burger-menu-line-1{
+    width: 24px;
+    top: 0px;
+}
+.burger-menu-line-2{
+    width: 18px;
+    top: 10px;
+}
+.burger-menu-line-3{
+    width: 12px;
+    top: 20px;
+}
+
+.burger-menu-line-1-open{
+    width: 24px;
+    top: 10px;
+    transform: rotate(-45deg);
+}
+.burger-menu-line-2-open{
+    width: 0px;
+    top: 10px;
+}
+.burger-menu-line-3-open{
+    width: 24px;
+    top: 10px;
+    transform: rotate(45deg);
+}
+
+.navbar-opened{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: -100vw;
+    background-color: rgb(15, 15, 15);
+    transition: 700ms ease-in-out;
+}
+
+.navbar-opened-toggle{
+    right: 0px;
+}
+
+.navbar-menu{
+    flex-direction: column;
+}
+
+.navbar-menu-title{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-menu-item-active{
+    text-decoration-line: underline;
+    transition: 200ms ease-in-out;
+}
+
+.navbar-menu-items{
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.navbar-menu-item{
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.navbar-menu-socials{
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.navbar-menu-social-items{
+
+}
+
+.navbar-menu-social-item{
+    margin: 6px;
+}

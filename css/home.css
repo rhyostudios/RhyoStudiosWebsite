@@ -1,0 +1,137 @@
+.home-div-a{
+    position: absolute;
+    height: calc(100vh - 64px);
+    width: calc(100vw - 64px);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.home-div-a-background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/assets/studiob.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-div-a-1 , .home-div-a-2 , .home-div-a-3 {
+    display: flex;
+    align-items: baseline;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.home-div-a-1{
+    font-weight: 300;
+}
+.home-div-a-11{
+    margin-right: 12px;
+}
+.home-div-a-12{
+    text-decoration-line: underline;
+}
+
+.home-div-a-2 {
+    font-weight: 300;
+}
+
+.home-div-a-21 {
+    margin-right: 12px;
+}
+
+.home-div-a-22{
+    font-weight: 700;
+}
+
+.home-div-a-3 {
+    font-weight: 300;
+}
+
+.home-div-a-31 {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.home-div-a-32 {
+
+}
+
+#home-div-a-btn-1 {
+    margin-top: 12px;
+}
+
+#home-div-a-btn-2 {
+    margin-top: 12px;
+}
+
+.home-div-b-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+.home-div-b-card{
+    width: 100%;
+    background-color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 24px;
+}
+
+.home-div-b-card-text-a{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    margin-top: 36px;
+    line-height: 12px;
+}
+.home-div-b-card-text-b{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+.home-div-b-card-text-c{
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(20, 20, 20);
+}
+.home-div-b-cards-btn{
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.home-sign-up-cont{
+    height: 120px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.home-sign-up-div{
+    width: 100vw;
+    max-width: 330px;
+    border: 2px solid white;
+}
+
+.home-sign-up-top{
+
+}
+
+.home-sign-up-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.home-sign-up-desc{
+    font-size: 16px;
+    font-weight: 200;
+}

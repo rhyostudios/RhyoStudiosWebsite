@@ -1,0 +1,41 @@
+.home-page , .studios-page , .about-page , .contact-page , .showcase-page {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 1000ms ease-in-out;
+}
+
+.home-page {
+    /* background-color: red; */
+    left: 0vw;
+}
+
+.studios-page {
+    /* background-color: blue; */
+    left: 100vw;
+}
+
+.showcase-page {
+    /* background-color: yellow; */
+    left: 100vw;
+}
+
+.about-page {
+    /* background-color: pink; */
+    left: 100vw;
+}
+
+.contact-page {
+    /* background-color: green; */
+    left: 100vw;
+}
+
+@media only screen and (min-width:720px) {
+    .home-page , .studios-page , .about-page , .contact-page , .showcase-page {
+        transition: 1000ms ease-in-out;
+    }
+}
